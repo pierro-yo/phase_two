@@ -7,4 +7,13 @@ def make_snippet(string):
     else:
         return string
 
-print(make_snippet("hello bye hi asas asasa keep"))
+# print(make_snippet("hello bye hi asas asasa "))
+
+
+def count_words(string):
+    words = string.split()
+    return len(words)
+
+
+print(count_words("hello my name is piers piers"))
+
