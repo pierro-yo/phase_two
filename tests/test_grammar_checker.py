@@ -2,7 +2,7 @@ from lib.grammar_checker import *
 
 def test_capital_first_letter():
     test_string = "Hello"
-    assert capital_first_letter(test_string) == "Grammar is correct"
+    assert capital_first_letter(test_string) == "Grammar is ok"
 
 def test_sentence_ending():
     test_string = "Hello!"
