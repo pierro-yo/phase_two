@@ -4,7 +4,7 @@ class GrammarStats:
         self.trues = 0
         self.falses = 0
 
- 
+
     def check(self,*texts):
         for text in texts:
             self.blank_list.append(text)
@@ -28,4 +28,3 @@ test.check("aaaa","Aaaaa.","aaaa","aaaa","aaaa","aaaa","aaaa","aaaa","aaaa","aaa
 # print(test.trues)
 
 print(test.percentage_good())
-

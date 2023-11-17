@@ -2,7 +2,7 @@
 def capital_first_letter(string):
     user_string = string
     if user_string[0].isupper():
-        return "Grammar is ok"
+        return "Grammar is correct"
     else:
         return "capital letter needed"
 # print(capital_first_letter('Hello'))
@@ -14,4 +14,4 @@ def sentence_ending(string):
         return "grammar is correct"
     else:
         return "need either ! ? ."
-print(sentence_ending("hello."))
+# print(sentence_ending("hello."))
