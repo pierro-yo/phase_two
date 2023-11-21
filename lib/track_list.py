@@ -5,12 +5,12 @@ class TrackList():
 
     def add_track_to_list(self, string):
         self.listened_tracks.append(string)
-        return self.listened_tracks
+        # return self.listened_tracks
         
     def view_listened_to_tracks(self):
         return self.listened_tracks
 
-test = TrackList()
+# test = TrackList()
 
 # print(test.listened_tracks)
 
@@ -23,3 +23,4 @@ test = TrackList()
 # As a user
 # So that I can keep track of my music listening
 # I want to add tracks I've listened to and see a list of them.
+
